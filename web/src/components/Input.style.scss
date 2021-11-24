@@ -1,0 +1,15 @@
+.Input {
+  label {
+    font-weight: 500;
+    display: block;
+    font-size: 14px;
+  }
+
+  input {
+    height: 30px;
+    border: 1px solid #999999;
+    border-radius: 4px;
+    padding: 6px 10px;
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,44 @@
+.StudentView {
+  box-sizing: border-box;
+  position: relative;
+
+  header {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  main {
+    padding: 30px;
+
+    .StudentInformation {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .StudentOperations {
+        display: flex;
+        margin-top: 30px;
+
+        .Button {
+            margin-right: 20px;
+        }
+    }
+
+    .Modal {
+        padding: 20px;
+        margin: 10px;
+
+        .DeletingOptions {
+            margin-top: 20px;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .Button {
+            margin-left: 5px;
+        }
+    }
+  }
+}

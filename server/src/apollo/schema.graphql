@@ -1,0 +1,27 @@
+scalar Date
+
+type Student {
+  id: ID!
+  name: String!
+  cpf: String!
+  email: String!
+  createdAt: Date
+  updatedAt: Date
+}
+
+input StudentInput {
+  id: ID
+  name: String!
+  cpf: String!
+  email: String!
+}
+
+type Query {
+  students(search: String): [Student]
+  student(id: ID!): Student
+}
+
+type Mutation {
+  saveStudent(student: StudentInput!): Student
+  deleteStudent(id: ID!): ID
+}

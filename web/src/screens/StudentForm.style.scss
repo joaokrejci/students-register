@@ -1,0 +1,27 @@
+.StudentForm {
+  header {
+    padding: 10px 0;
+  }
+  form {
+    margin: auto;
+    max-width: 300px;
+    padding: 20px;
+
+    .Input {
+      margin-top: 10px;
+
+      input {
+        width: 100%;
+      }
+    }
+
+    .Button {
+      margin-top: 20px;
+      width: 100%;
+
+      .Text {
+        width: 100%;
+      }
+    }
+  }
+}
