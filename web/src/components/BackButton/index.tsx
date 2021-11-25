@@ -1,9 +1,9 @@
 import { ButtonHTMLAttributes } from "react";
 import { FaAngleLeft } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
-import Button from "./Button";
+import Button from "../Button";
 
-import "./BackButton.style.scss";
+import "./style.scss";
 
 interface BackButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   to: string;

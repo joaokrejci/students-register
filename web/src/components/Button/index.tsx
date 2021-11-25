@@ -1,7 +1,7 @@
 import { ButtonHTMLAttributes, PropsWithChildren } from "react";
 import { IconType } from "react-icons";
-import Text from "./Text";
-import "./Button.style.scss";
+import Text from "../Text";
+import "./style.scss";
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: "round" | "normal" | "text";

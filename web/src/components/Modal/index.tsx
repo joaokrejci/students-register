@@ -1,5 +1,5 @@
 import { HTMLAttributes } from "react";
-import "./Modal.style.scss";
+import "./style.scss";
 
 interface ModalProps extends HTMLAttributes<HTMLDivElement> {
   onExit: () => void;

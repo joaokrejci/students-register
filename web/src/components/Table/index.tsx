@@ -1,5 +1,5 @@
 import { PropsWithChildren, TableHTMLAttributes } from "react";
-import Text from "./Text";
+import Text from "../Text";
 
 interface TableProps extends TableHTMLAttributes<HTMLTableElement> {
   headers?: string[];

@@ -1,5 +1,5 @@
 import { PropsWithChildren } from "react";
-import "./Text.style.scss";
+import "./style.scss";
 
 type TextProps = PropsWithChildren<{
   variant?: "title" | "caption" | "normal" | "label";
