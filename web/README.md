@@ -1,4 +1,7 @@
-Cliente web para a aplicação Students Register
+# Cliente web
+
+Cliente web para a aplicação Students Register.
+O cliente consome a API grahpql disponibilizada pelo modulo `server`, além de ter sido criado com a ideologia de design system em mente.
 
 # Executando
 ## Produção
