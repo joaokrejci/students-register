@@ -40,7 +40,7 @@ class StudentService {
     return this.safeGetRepository().save(student);
   }
   static async delete(id: number): Promise<number> {
-    this.safeGetRepository().delete(id)
+    await this.safeGetRepository().delete(id)
     return id
   }
 }

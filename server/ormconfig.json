@@ -4,7 +4,7 @@
   "port": 5432,
   "username": "postgres",
   "password": "postgres",
-  "database": "students_descomplica_dev",
+  "database": "students_descomplica",
   "synchronize": true,
   "logging": true,
   "entities": ["src/data/entities/**/*.ts"],
