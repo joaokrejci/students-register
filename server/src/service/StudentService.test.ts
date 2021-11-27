@@ -1,16 +1,6 @@
 import "reflect-metadata";
-import { createConnection, createConnections, getConnection } from "typeorm";
-import { isRegExp } from "util";
 import { Student } from "../data/entities/Student";
 import StudentService from "./StudentService";
-
-beforeAll(async () => {
-  await createConnection();
-});
-
-afterAll(async () => {
-  getConnection().close();
-});
 
 describe("Student service operations", () => {
   const newStudent = new Student();
